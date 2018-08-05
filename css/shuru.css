@@ -1,0 +1,66 @@
+@import url(base.css);
+.head_top{
+    width: 3.77rem;
+    height: 3.28rem;
+    background: #ffffff;
+    margin: 1.7rem auto 0rem;
+
+}
+.head_top p{
+    line-height: 0.56rem;
+    font-size: 0.26rem;
+    font-family: 苹方;
+    text-align: center;
+    color: #2bd171;
+
+}
+.head_top .head_top2{
+    font-size: 0.2rem;
+    color: #acacac;
+}
+.head_bottom{
+    width: 3.58rem;
+    height: 0.6rem;
+    background: #ffffff;
+    margin-top: 2.21rem;
+    margin-left: 1.94rem;
+    border-bottom: 0.01rem solid #acacac;
+    overflow: hidden;
+    position: relative;
+}
+.head_bottom_left{
+    width: 0.2rem;
+    height: 0.1rem;
+    background: #ffcb2e;
+    margin-top: 0.26rem;
+    border-radius: 0.05rem;
+}
+.head_bottom_right{
+    border: none;
+    width: 3.18rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0.2rem;
+    color: #adadad;
+    font-size: 0.21rem;
+    padding-left: 0.22rem;
+
+}
+.head_bottom_go{
+    width: 3.77rem;
+    height: 0.7rem;
+    background: #ffffff;
+    margin: 0.27rem auto 0;
+}
+.head_bottom_go1{
+    width: 2.76rem;
+    height: 100%;
+    margin: auto;
+    background: #e3e3e3;
+    border-radius: 0.35rem;
+    color: #b5b5b5;
+    font-size: 0.22rem;
+    line-height: 0.7rem;
+    text-align: center;
+}

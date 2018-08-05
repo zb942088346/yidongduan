@@ -1,0 +1,37 @@
+@import url(base.css);
+.xz1{
+    width: 3.12rem;
+    height: 3.12rem;
+    margin: 1.8rem auto 0;
+    background: #F45E4E;
+}
+.xz1 p{
+    display: block;
+    font-size: 0.22rem;
+    font-family: 苹方;
+    text-align: center;
+    color: #0f1114;
+    margin: 1.28rem auto 0;
+
+}
+.xz_button ul li{
+    width: 4.35rem;
+    height: 0.7rem;
+    background-image: -webkit-linear-gradient(left,#3e9eff,#41c2ff);
+    margin-top: 5.49rem ;
+    margin-left: 1.65rem;
+    border-radius: 0.35rem;
+    text-align: center;
+    line-height: 0.7rem;
+    color: #ffffff;
+    font-size: 0.22rem;
+    font-family:苹方;
+}
+.xz_button ul li:nth-child(1){
+    box-shadow: 0 0.02rem 0.4rem 0.04rem rgba(61,227, 64,0.6);
+}
+.xz_button ul li:nth-child(2){
+    margin-top: 0.37rem;
+    background-image: -webkit-linear-gradient(left,#39dd54,#37d863);
+    box-shadow: 0 0.02rem 0.4rem 0.04rem rgba(61,227, 64,0.6);
+}
