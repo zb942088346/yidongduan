@@ -57,3 +57,6 @@
     background-image: -webkit-linear-gradient(top,#3de43e,#34d179);
     box-shadow: 0 0.02rem 0.4rem 0.04rem rgba(61,227, 64,0.6);
 }
+.ing ul li a{
+    color: #fff;
+}

@@ -1,11 +1,11 @@
 @import url(base.css);
-.xz1{
+.header_top{
     width: 3.12rem;
     height: 3.12rem;
     margin: 1.8rem auto 0;
-    background: #F45E4E;
+    /*background: #F45E4E;*/
 }
-.xz1 p{
+.header_top p{
     display: block;
     font-size: 0.22rem;
     font-family: 苹方;
@@ -14,7 +14,7 @@
     margin: 1.28rem auto 0;
 
 }
-.xz_button ul li{
+.header .header_bottom  li{
     width: 4.35rem;
     height: 0.7rem;
     background-image: -webkit-linear-gradient(left,#3e9eff,#41c2ff);
@@ -27,11 +27,14 @@
     font-size: 0.22rem;
     font-family:苹方;
 }
-.xz_button ul li:nth-child(1){
-    box-shadow: 0 0.02rem 0.4rem 0.04rem rgba(61,227, 64,0.6);
+.header .header_bottom li:nth-child(1){
+    box-shadow: 0 0.02rem 0.4rem 0.04rem rgba(62,163, 255,0.6);
 }
-.xz_button ul li:nth-child(2){
+.header  .header_bottom li:nth-child(2){
     margin-top: 0.37rem;
     background-image: -webkit-linear-gradient(left,#39dd54,#37d863);
     box-shadow: 0 0.02rem 0.4rem 0.04rem rgba(61,227, 64,0.6);
+}
+.header .header_bottom  li a{
+    color: #fff;
 }

@@ -24,14 +24,14 @@
     background: #ffffff;
     margin-top: 2.21rem;
     margin-left: 1.94rem;
-    border-bottom: 0.01rem solid #acacac;
+    border-bottom: 0.01rem solid red;
     overflow: hidden;
     position: relative;
 }
 .head_bottom_left{
     width: 0.2rem;
     height: 0.1rem;
-    background: #ffcb2e;
+    background: #adadad;
     margin-top: 0.26rem;
     border-radius: 0.05rem;
 }
@@ -46,8 +46,9 @@
     color: #adadad;
     font-size: 0.21rem;
     padding-left: 0.22rem;
-
-
+}
+input::-webkit-input-placeholder{
+    color: red;
 }
 .head_bottom_go{
     width: 3.77rem;
