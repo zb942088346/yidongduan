@@ -1,0 +1,32 @@
+@import url(base.css);
+.head{
+    position: relative;
+}
+.head .head1{
+     position: absolute;
+     top:0.5rem;
+     left:3.2rem;
+     color: #fff;
+     font-size: 0.4rem;
+ }
+.head .head2{
+    position: absolute;
+    top:1.1rem;
+    left:2rem;
+    color: #47D790;
+    font-size: 0.4rem;
+}
+.head_bottom_go1{
+    position: absolute;
+    bottom:1.8rem;
+    left: 2.5rem;
+    width: 2.76rem;
+    height: 0.7rem;
+    margin: auto;
+    background: #F19E0C;
+    border-radius: 0.35rem;
+    color: #fff;
+    font-size: 0.22rem;
+    line-height: 0.7rem;
+    text-align: center;
+}

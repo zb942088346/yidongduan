@@ -3,7 +3,8 @@
     width: 3.77rem;
     height: 3.28rem;
     background: #ffffff;
-    margin: 1.7rem auto 0rem;
+    margin: 2rem auto 0rem;
+   position: relative;
 
 }
 .head_top p{
@@ -12,7 +13,15 @@
     font-family: 苹方;
     text-align: center;
     color: #2bd171;
-
+}
+.head_top .head_top1{
+    margin: 1rem auto 0rem;
+}
+.head_top img{
+    display: block;
+    width: 1.48rem;
+    height: 1.48rem;
+    margin: 0 auto;
 }
 .head_top .head_top2{
     font-size: 0.2rem;
@@ -22,7 +31,7 @@
     width: 3.58rem;
     height: 0.6rem;
     background: #ffffff;
-    margin-top: 2.21rem;
+    margin-top: 5rem;
     margin-left: 1.94rem;
     border-bottom: 0.01rem solid #acacac;
     overflow: hidden;
@@ -65,4 +74,56 @@
     font-size: 0.22rem;
     line-height: 0.7rem;
     text-align: center;
+}
+.animation{
+    width: 0.5rem;
+    height: 0.5rem;
+    background: rgba(51,201,114,0.4);
+    border-radius: 50%;
+    position: absolute;
+    top: 0.7rem;
+    left: 1.65rem;
+    animation:expand 2s infinite ;
+}
+@keyframes expand {
+    0%{
+       transform: scale(1,1);
+    }
+    20%{
+        transform: scale(1.5,1.5);
+    }
+    30%{
+        transform: scale(2,2);
+    }
+    40%{
+        transform: scale(2.5,2.5);
+    }
+    50%{
+        transform: scale(3,3);
+    }
+    60%{
+        transform: scale(3.5,3.5);
+    }
+    70%{
+        transform: scale(5,5);
+    }
+    80%{
+        transform: scale(3.5,3.5);
+    }
+    90%{
+        transform: scale(1.5,1.5);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}
+.animation1{
+    width: 0.65rem;
+    height: 0.65rem;
+    background: rgba(51,201,114,0.3);
+    border-radius: 50%;
+    position: absolute;
+    top: 0.6rem;
+    left: 1.55rem;
+    animation:expand 2s 0.02s infinite ;
 }

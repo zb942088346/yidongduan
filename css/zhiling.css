@@ -1,0 +1,39 @@
+@import url(base.css);
+.header{
+    width: 7.5rem;
+    height: 13.34rem;
+    /*background: #ff6700;*/
+    position: relative;
+}
+.header img:nth-child(1){
+    width: 7.5rem;
+    height: 13.34rem;
+}
+.header img:nth-child(2){
+    position: absolute;
+    top: 2.4rem;
+    left: 1.5rem;
+}
+.header_on{
+    position: absolute;
+    top:5.5rem;
+    left: 2.3rem;
+    font-size: 0.22rem;
+    color:#b0b0b0 ;
+    font-family: "苹方 粗体";
+    text-align: center;
+}
+.head_bottom_go1{
+    position: absolute;
+    bottom:1.8rem;
+    left: 2.5rem;
+    width: 2.76rem;
+    height: 0.7rem;
+    margin: auto;
+    background: #F19E0C;
+    border-radius: 0.35rem;
+    color: #fff;
+    font-size: 0.22rem;
+    line-height: 0.7rem;
+    text-align: center;
+}

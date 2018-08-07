@@ -1,0 +1,15 @@
+@import url(base.css);
+.face{
+    width: 3.94rem;
+    height: 4rem;
+    background: #fff;
+    margin: 3.34rem 1.98rem 3.86rem 1.98rem;
+    border: 0.02rem solid #b0b0b0;
+}
+.face_bottom{
+     width: 1.5rem;
+    height: 0.20rem;
+    color: #b0b0b0;
+    font-size: 0.12rem;
+    margin: 0 auto;
+}
